@@ -117,6 +117,7 @@ cd ~/tools/
 echo "done"
 
 echo "installing massdns"
+cd ~/
 sudo apt-get install libldns-dev
 git clone https://github.com/blechschmidt/massdns.git
 cd ~/massdns
